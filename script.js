@@ -23,11 +23,6 @@ alert("Enter Father's Name");
 return;
 }
 
-if(mother==""){
-alert("Enter Mother's Name");
-return;
-}
-
 if(dob==""){
 alert("Select Date of Birth");
 return;
