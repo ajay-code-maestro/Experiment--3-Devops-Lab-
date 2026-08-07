@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>User Registration Form</h2>
+
+    <form id="regForm">
+
+        <label>First Name</label>
+        <input type="text" id="fname">
+
+        <label>Last Name</label>
+        <input type="text" id="lname">
+
+        <label>Father's Name</label>
+        <input type="text" id="father">
+
+        <label>Mother's Name</label>
+        <input type="text" id="mother">
+
+        <label>Date of Birth</label>
+        <input type="date" id="dob">
+
+        <label>Gender</label><br>
+
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+
+        <br><br>
+
+        <h3>Educational Details</h3>
+
+        <table border="1">
+            <tr>
+                <th>Qualification</th>
+                <th>Board/University</th>
+                <th>Percentage</th>
+            </tr>
+
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="number"></td>
+            </tr>
+
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="number"></td>
+            </tr>
+
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="number"></td>
+            </tr>
+
+        </table>
+
+        <br>
+
+        <label>Upload Passport Size Photo (Less than 100 KB)</label>
+        <input type="file" id="photo">
+
+        <label>Upload E-Sign</label>
+        <input type="file" id="esign">
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+        <button type="reset">Reset</button>
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
